@@ -92,5 +92,41 @@ main{
  .thamnel img{
     width: 177px;
  }
+ .blogs{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   row-gap: 15px;
+   
+ }
+ .blog{
+   display: flex;
+   margin-left: 20px;
+ }
+ .blog-info{
+   margin-left: 10px;
+ }
+ .blog-info p a{
+   text-decoration: none;
+ }
+ /* top Course Style Here */
+ .courses{
+    width: 870px;
+    background-color: #fff;
 
+ }
 
+ .course-thambnail img{
+   width: 224px;
+   height: 104px;
+ }
+ .vip{
+   color: gold;
+ }
+.top-courses{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+.course{
+  margin-left: 20px;
+}
