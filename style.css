@@ -112,6 +112,7 @@ main{
  .courses{
     width: 870px;
     background-color: #fff;
+    border-radius: 10px;
 
  }
 
@@ -126,7 +127,27 @@ main{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
+
 }
 .course{
   margin-left: 20px;
 }
+/* ---------------------------------/
+Media Queries For Phones and iPads  !
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+    
+  .nav-container,  .manu-items{
+    width: 100%;
+    height: 250px;
+    flex-direction: column;
+  }
+  .top-player-section{
+    width: 100%;
+    height: 100%;
+  }
+  .top-players, .blogs, .top-courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
